@@ -26,8 +26,12 @@ export const Container = styled.div`
       font-weight: 500;
     }
 
-    &.highlight-background {
+    &.highlight-background-positive {
       background: var(--green);
+      color: #fff;
+    }
+    &.highlight-background-negative {
+      background: var(--red);
       color: #fff;
     }
   }
